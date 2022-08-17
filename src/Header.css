@@ -33,6 +33,7 @@
 .header_logoTitle {
   text-decoration: none;
   border: 0;
+  margin-left: 0.25rem;
   color: var(--light);
 }
 
