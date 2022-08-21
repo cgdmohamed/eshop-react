@@ -16,7 +16,7 @@
   top: 0;
   z-index: 100;
   font-family: var(--webfont);
-  box-shadow: var(--shadow) 0px 6px 20px;
+  /*box-shadow: var(--shadow) 0px 6px 20px;*/
 }
 
 .header_logo {
@@ -91,7 +91,15 @@
 
 .nav_basketCount {
   left: 0;
-  background-color: #e84855;
+  background-color: var(--alert);
+  text-align: center;
+  border-radius: 50px;
+  margin-top: -10px;
+  font-weight: 100;
+}
+.nav_heartCount {
+  left: 0;
+  background-color: var(--alert);
   text-align: center;
   border-radius: 50px;
   margin-top: -10px;

@@ -25,6 +25,11 @@ function Header() {
           <box-icon name='cart' color="#f9dc5c" className="nav_itemBasket"></box-icon>
           <span className="nav_itemTwo nav_basketCount">0</span>
           </div>
+          <div className="nav_item">
+          <box-icon name='heart' color="#f9dc5c" className="nav_itemHeart"></box-icon>
+          <span className="nav_itemTwo nav_heartCount">0</span>
+          </div>
+          
         </div>
         
     </div>
